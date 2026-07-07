@@ -1,0 +1,17 @@
+{
+  "name": "gears-turning",
+  "description": "Cross-file consistency and temporal durability checks for agentic research pipelines — keeps shared contracts in agreement across files and prevents accurate-now values from rotting on the next run.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ananya"
+  },
+  "license": "MIT",
+  "keywords": [
+    "consistency",
+    "durability",
+    "agentic",
+    "research",
+    "documentation",
+    "quality"
+  ]
+}

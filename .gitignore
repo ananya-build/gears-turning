@@ -1,0 +1,55 @@
+# --- Secrets & credentials (security is a top priority — never commit these) ---
+.env
+.env.*
+*.env
+.envrc
+secrets.*
+*.secret
+*.secrets
+credentials.*
+*.credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa
+id_ed25519
+*.token
+.netrc
+.npmrc
+auth.json
+service-account*.json
+gha-creds-*.json
+aws-credentials
+.aws/
+.ssh/
+.gnupg/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Dependencies / build ---
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Logs & local scratch ---
+*.log
+tmp/
+.tmp/
+.cache/
+
+# --- Not part of the shipped plugin ---
+# Project-specific skill originals kept locally for reference only; they carry
+# internal project/pipeline names and must not ship in the public repo.
+archive-history-skills/

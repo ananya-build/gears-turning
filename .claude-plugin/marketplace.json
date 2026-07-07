@@ -1,0 +1,14 @@
+{
+  "name": "gears-turning-skills",
+  "owner": {
+    "name": "Ananya"
+  },
+  "description": "Consistency + durability skills for agentic research pipelines.",
+  "plugins": [
+    {
+      "name": "gears-turning",
+      "source": ".",
+      "description": "Cross-file consistency and temporal durability checks."
+    }
+  ]
+}
